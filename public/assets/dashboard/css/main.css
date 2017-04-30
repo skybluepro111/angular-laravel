@@ -1,0 +1,44 @@
+.postizePostList h4 {
+    margin-top: 0 !important;
+}
+
+.postizeStatusWrap i {
+    font-size: 24px;
+}
+
+.postizeListThumb {
+    border-radius:3px; border:1px solid black; width:156px; height:100px;
+}
+
+.kv-file-upload {
+    display: none !important;
+}
+
+.embedTextarea {
+    width: 100% !important;
+    height: 150px !important;
+    padding: 7px 12px !important;
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 3px !important;
+}
+
+#thumbnailGenerator {
+    border: 1px solid #ddd;
+}
+
+.canvas-container {
+    margin: 0 auto 20px;
+}
+
+.ng-cloak {
+    display: none;
+}
+
+#MethodizeEditor .dropdown-menu {
+    min-width: 250px;
+}
+
+.file-preview {
+    display: none !important;
+}

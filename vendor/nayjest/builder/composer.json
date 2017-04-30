@@ -1,0 +1,30 @@
+{
+    "name": "nayjest/builder",
+    "description": "PHP package for instantiating objects using configurations",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitalii Stepanenko",
+            "email": "mail@vitaliy.in"
+        }
+    ],
+    "require": {
+        "nayjest/manipulator": "^3",
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "mockery/mockery": "*",
+        "codeclimate/php-test-reporter": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nayjest\\Builder\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nayjest\\Builder\\Test\\": "tests"
+        }
+    }
+}
